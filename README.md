@@ -16,31 +16,45 @@ Each tag corresponds to the tag of the ubuntu base image:
 
 # Launching instructions
 In order to run a container with our image, execute:
-
-    sudo docker run -ti torusware/speedus-ycsb
-
+```bash
+sudo docker run -ti torusware/speedus-ycsb
+```
 This will launch a `bash` shell where you can execute whatever program you want.
 
 The YCSB is installed on the home folder and added to the path, so just type:
-
-    ycsb -h
-
+```bash
+ycsb -h
+```
 And it will show you the help menu of the ycsb. In order to run it with speedus, type:
-
-    speedus ycsb -h
-
+```bash
+speedus ycsb -h
+```
 In this image we provide a built-in communication tests as well, Netpipe. Just execute:
-
-    NPtcp &
-    NPtcp -h localhost
-
+```bash
+NPtcp &
+NPtcp -h localhost
+```
 For getting the baseline. To perform the test with our solution:
-
-    speedus NPtcp &
-    speedus NPtcp -h localhost
-
+```bash
+speedus NPtcp &
+speedus NPtcp -h localhost
+```
 As you can see, using speedus is really easy and non-intrusive, just type `speedus` before your application:
+```bash
+speedus /path/to/the/program [parameters]
+```
+If you need more information, you can check the README file inside the container or contact us at **info@torusware.com**
 
-    speedus /path/to/the/program [parameters]
+# Check our other images in the Docker Hub
 
-If you need more information, you can check the README file inside the container or contact us at <info@torusware.com>
+- [Speedus Plug&Run Lite for Ubuntu](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/)
+- [Speedus Plug&Run Lite for CentOS](https://registry.hub.docker.com/u/torusware/speedus-centos/)
+- [Speedus Plug&Run Lite for Redis](https://registry.hub.docker.com/u/torusware/speedus-redis/)
+- [Speedus Plug&Run Lite for MongoDB](https://registry.hub.docker.com/u/torusware/speedus-mongo/)
+
+# Example Use Cases
+
+- [Optimizing communications between Docker containers](https://bit.ly/1IZdodU)
+- [Increasing performace of a MongoDB Docker container in Azure](https://bit.ly/1LgUzDV)
+- [Increasing performace of a Redis Docker container in Amazon Web Services](https://bit.ly/1KsVBJW)
+
