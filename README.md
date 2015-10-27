@@ -1,6 +1,6 @@
 ![speedus logo](http://dl.torusware.com/images/speedus_small.jpg "Torusware Speedus")
 
-# Speedus Plug&Run Lite for YCSB
+# Speedus Plug&Run for YCSB
 Ubuntu image with Yahoo! Cloud Serving Benchmark (YCSB) and speedus solution for high-performance communications. Check us out at [our website](http://torusware.com/).
 
 Speedus is your communications highway:
@@ -47,10 +47,10 @@ If you need more information, you can check the README file inside the container
 
 # Check our other images in the Docker Hub
 
-- [Speedus Plug&Run Lite for Ubuntu](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/)
-- [Speedus Plug&Run Lite for CentOS](https://registry.hub.docker.com/u/torusware/speedus-centos/)
-- [Speedus Plug&Run Lite for Redis](https://registry.hub.docker.com/u/torusware/speedus-redis/)
-- [Speedus Plug&Run Lite for MongoDB](https://registry.hub.docker.com/u/torusware/speedus-mongo/)
+- [Speedus Plug&Run for Ubuntu](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/)
+- [Speedus Plug&Run for CentOS](https://registry.hub.docker.com/u/torusware/speedus-centos/)
+- [Speedus Plug&Run for Redis](https://registry.hub.docker.com/u/torusware/speedus-redis/)
+- [Speedus Plug&Run for MongoDB](https://registry.hub.docker.com/u/torusware/speedus-mongo/)
 
 # Example Use Cases
 
