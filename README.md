@@ -17,7 +17,7 @@ Each tag corresponds to the tag of the ubuntu base image:
 # Launching instructions
 In order to run a container with our image, execute:
 ```bash
-sudo docker run -ti torusware/speedus-ycsb
+sudo docker run -v /dev/shm:/dev/shm -ti torusware/speedus-ycsb
 ```
 This will launch a `bash` shell where you can execute whatever program you want.
 
