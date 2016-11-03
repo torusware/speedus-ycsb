@@ -10,9 +10,9 @@ Speedus is your communications highway:
 - 100% nonintrusive software solution which takes full advantage of the underlying hardware
 
 # Supported tags and respective `Dockerfile` link
-Each tag corresponds to the tag of the ubuntu base image:
+Each tag corresponds with a YCSB version:
 
-- [`2.0`](https://github.com/torusware/speedus-ycsb/tree/master/2.0 "2.0 Dockerfile"), [`latest`](https://github.com/torusware/speedus-ycsb/tree/master/2.0 "latest Dockerfile")
+- [`0.2.0`](https://github.com/torusware/speedus-ycsb/tree/master/0.2.0 "0.2.0 Dockerfile"), [`latest`](https://github.com/torusware/speedus-ycsb/tree/master/0.2.0 "latest Dockerfile")
 
 # Launching instructions
 In order to run a container with our image, execute:
@@ -57,4 +57,3 @@ If you need more information, you can check the README file inside the container
 - [Optimizing communications between Docker containers](https://bit.ly/1IZdodU)
 - [Increasing performace of a MongoDB Docker container in Azure](https://bit.ly/1KGHxNW)
 - [Increasing performace of a Redis Docker container in Amazon Web Services](https://bit.ly/1KsVBJW)
-
